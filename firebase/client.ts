@@ -10,7 +10,7 @@ import { FirebaseStorage, getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDgtVkpIyozHSE1ZIsvQ5B1zbpBoD4AhfU',
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: 'fire-homes-course-9f138.firebaseapp.com',
   projectId: 'fire-homes-course-9f138',
   storageBucket: 'fire-homes-course-9f138.firebasestorage.app',
